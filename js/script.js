@@ -31,7 +31,7 @@ function calculateAge() {
 
         // Check if the age is greater than 30
         if (ageInYears > 30 && ageInYears <= 40) {
-            document.getElementById("result").innerHTML += "<br><div class='special-message-box'>Your Govt. Job Opportunity is Gone!  তুই তো শেষ!!!</div>";
+            document.getElementById("result").innerHTML += "<br><div class='special-message-box'>Your Govt. Job Opportunity is Gone! </div>";
         }
     } else {
         // Display an error message if no birthdate is selected
